@@ -4,7 +4,7 @@ const path = require('path');
 const id = require('uuid');
 
 
-const api = require('./rotues/index');
+const api = require('./routes/index');
 
 // Sets port to required value for Heroku, or 3001
 const PORT = process.env.PORT || 3001;
